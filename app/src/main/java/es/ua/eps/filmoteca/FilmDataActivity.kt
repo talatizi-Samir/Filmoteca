@@ -9,7 +9,7 @@ import kotlinx.android.synthetic.main.activity_film_data.*
 
 
 class FilmDataActivity : AppCompatActivity() {
-    val EXTRA_FILM_TITLE = "EXTRA_FILM_TITLE";
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,9 +36,13 @@ class FilmDataActivity : AppCompatActivity() {
 
 
         val extraIntent = intent
-        val s = extraIntent.getStringExtra("EXTRA_FILM_TITLE")
-        textView2.setText(s)
+        val s = extraIntent.getStringExtra("EXTRA_FILM_TITLE" )
+        val d= extraIntent.getStringExtra("result")
+        textView2.setText(s.plus(" ").plus(d)
+        )
+
     }
+
 
 
 }
