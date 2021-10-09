@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FilmDataActivity">
+
+
+    <Button
+        android:id="@+id/rel_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="401dp"
+        android:text="er película relacionada"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <Button
+        android:id="@+id/dataEdit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="299dp"
+        android:text="Editar película"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <Button
+        android:id="@+id/ret_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="201dp"
+        android:text="Volver a la principal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="494dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="323dp"
+        android:layout_height="79dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="538dp"
+        android:text="Datos de la película"
+        android:textSize="36dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+</RelativeLayout>

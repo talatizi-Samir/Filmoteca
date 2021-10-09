@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/Filmoteca/app/src/main/res/layout/activity_film_data.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Filmoteca/app/src/main/res/layout/activity_film_edit.xml" value="0.16455696202531644" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Filmoteca/app/src/main/res/layout/activity_film_list.xml" value="0.12037037037037036" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Filmoteca/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
       </map>
     </option>
