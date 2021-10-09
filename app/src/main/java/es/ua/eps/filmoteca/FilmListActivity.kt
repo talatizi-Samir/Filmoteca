@@ -11,19 +11,23 @@ class FilmListActivity : AppCompatActivity() {
         setContentView(R.layout.activity_film_list)
 
         filmA_btn.setOnClickListener{
-            val intent = Intent(this, FilmDataActivity::class.java)
-            startActivity(intent)
+            val extraIntent = Intent(this, FilmDataActivity::class.java)
+            extraIntent.putExtra("EXTRA_FILM_TITLE", "Film A")
+            startActivity(extraIntent)
         }
 
         filmB_btn.setOnClickListener{
-            val intent = Intent(this, FilmDataActivity::class.java)
-            startActivity(intent)
+            val extraIntent = Intent(this, FilmDataActivity::class.java)
+            extraIntent.putExtra("EXTRA_FILM_TITLE", "Film B")
+            startActivity(extraIntent)
         }
 
         aboutfilm_btn.setOnClickListener{
-            val intent = Intent(this, AboutActivity::class.java)
-            startActivity(intent)
+            val extraIntent = Intent(this, FilmDataActivity::class.java)
+            extraIntent.putExtra("EXTRA_FILM_TITLE", "Film C")
+            startActivity(extraIntent)
         }
+
 
 
 

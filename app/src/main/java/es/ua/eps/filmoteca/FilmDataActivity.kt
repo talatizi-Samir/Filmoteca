@@ -3,14 +3,17 @@ package es.ua.eps.filmoteca
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_film_data.*
 
 
+
 class FilmDataActivity : AppCompatActivity() {
+    val EXTRA_FILM_TITLE = "EXTRA_FILM_TITLE";
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_film_data)
-
 
         rel_btn.setOnClickListener{
             val intent = Intent(this, FilmDataActivity::class.java)
@@ -32,5 +35,10 @@ class FilmDataActivity : AppCompatActivity() {
         startActivity(flagIntent)
 
 
+        val extraIntent = intent
+        val s = extraIntent.getStringExtra("EXTRA_FILM_TITLE")
+        textView2.setText(s)
     }
+
+
 }
