@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Filmoteca</string>
+    <string name="textView">Created by Samir</string>
+    <string name="web_button">Go to website</string>
+    <string name="soporte_button">Get support</string>
+    <string name="volver_button">Back</string>
+</resources>

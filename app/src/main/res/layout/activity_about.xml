@@ -18,7 +18,7 @@
         android:layout_marginTop="68dp"
         android:layout_marginEnd="57dp"
         android:layout_marginBottom="605dp"
-        android:text="Creada por Talatizi"
+        android:text="@string/textView"
         android:textSize="32sp" />
 
     <ImageView
@@ -42,7 +42,7 @@
         android:layout_marginEnd="22dp"
         android:onClick="toast"
         android:layout_marginBottom="166dp"
-        android:text="Ir al sitio web" />
+        android:text="@string/web_button" />
 
     <Button
         android:id="@+id/soporte_button"
@@ -53,7 +53,7 @@
         android:layout_marginEnd="115dp"
         android:layout_marginBottom="64dp"
         android:onClick="toast"
-        android:text="Obtener soporte"
+        android:text="@string/soporte_button"
         />
 
     <Button
@@ -65,5 +65,5 @@
         android:layout_marginEnd="232dp"
         android:layout_marginBottom="166dp"
         android:onClick="toast"
-        android:text="Volver" />
+        android:text="@string/volver_button" />
 </RelativeLayout>

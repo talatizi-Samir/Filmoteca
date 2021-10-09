@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Filmoteca</string>
+    <string name="textView">Creada por Samir</string>
+    <string name="web_button">Ir al sitio web</string>
+    <string name="soporte_button">Obtener soporte</string>
+    <string name="volver_button">Volver</string>
 </resources>
